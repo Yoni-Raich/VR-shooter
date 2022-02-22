@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1241767780581124}
+  m_IsPrefabAsset: 1
+--- !u!1 &1241767780581124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4955401152641892}
+  - component: {fileID: 114745041879862682}
+  - component: {fileID: 114253895401273510}
+  - component: {fileID: 114228053524623714}
+  m_Layer: 0
+  m_Name: GameManeger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4955401152641892
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241767780581124}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.35945976, y: 1.055645, z: 14.644945}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114228053524623714
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241767780581124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d498b900b67fd3d4eb2e54ae13d08a8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canera: {fileID: 0}
+  ball_1: {fileID: 114877547419313172, guid: a21b8d8e6b958154094466376ce981a5, type: 2}
+  ball_2: {fileID: 114057996085431284, guid: a21b8d8e6b958154094466376ce981a5, type: 2}
+  ball_3: {fileID: 114949892594400198, guid: a21b8d8e6b958154094466376ce981a5, type: 2}
+  ball_4: {fileID: 114078668565040892, guid: a21b8d8e6b958154094466376ce981a5, type: 2}
+  ball_5: {fileID: 114036157241718418, guid: a21b8d8e6b958154094466376ce981a5, type: 2}
+  ball_6: {fileID: 114495561805688260, guid: a21b8d8e6b958154094466376ce981a5, type: 2}
+  Balls: []
+--- !u!114 &114253895401273510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241767780581124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 550f09776ea07184dbcaee586c1e067e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getDup: {fileID: 1359914842973264, guid: e750b5ce5b9d7354ca91fd550e61f922, type: 2}
+  timer: 3
+  posiCount: 50
+--- !u!114 &114745041879862682
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241767780581124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f03ff8975e3246743ad8f4358437d59f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
